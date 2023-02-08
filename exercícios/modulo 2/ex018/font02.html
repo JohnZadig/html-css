@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('love\ larry.otf') format('opentype'), url('love\larry.ttf')format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+              tipos de format()
+              - opentype()
+              - truetype()
+              - embeded-opentype
+              - truetype-aat (apple advanced typography)
+              - SVG
+        */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            font-family: 'love';
+            font-size: 3em;
+        }
+        h2 {
+            font-family:'Work Sans' ;
+        }
+    </style>
+</head>
+<body>
+    <h1>titulo</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi a beatae non blanditiis quo? Ad itaque animi unde vero quam, eaque earum nisi ipsa repellendus velit optio porro vitae sit!</p>
+<h2>subtitulo</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae incidunt, accusantium quibusdam totam illum tempore autem? Porro consequatur voluptates ex itaque asperiores fugit, quia consectetur impedit quam. Sequi, nesciunt odio?</p>
+
+</body>
+</html>
