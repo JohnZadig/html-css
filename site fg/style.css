@@ -25,6 +25,65 @@
 
 }
 
+/*
+---------------------------------------------------------------------
+           degrade-animado
+.box-degrade{
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #3912a4d8, #8A30FF, #0D56FF, #1D10EB, #BB07E6,#FF5DC8)
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+.box-degrade h1 {
+    color: white;
+    font-weigth: lighter;
+
+}
+
+
+@keyframes degrade-animado {
+    0% {
+    background-position-x: 0% ;
+    }
+    100% {
+    background-position-x: 100%;
+    }
+
+}
+-----------------------------------------------------------------------
+
+                background com gradiente animado    
+
+.gradiente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  heigth: 100vh;
+  width: 100vh;
+  background: linear-gradient(#3912a4d8, #8A30FF, #0D56FF, #1D10EB, #BB07E6,#FF5DC8)
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+
+}
+
+@keyframes colors {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+}
+}
+-----------------------------------------------------------------------
+*/
+
 body {
     background-color: var(--cor1);
 }
@@ -35,6 +94,14 @@ header {
     text-align:center;
     padding-top: 40px;
     }
+
+header > div {
+    background-image: url('imagens/edit\ 59.JPG');
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 100%;
+}
 
 header > h1 {
 
@@ -65,5 +132,8 @@ nav > a {
     font-weight: bold;
     transition-duration: 0.2s;
     }
+main {
+    
+}
 
 
