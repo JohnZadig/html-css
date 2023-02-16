@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio 13 tabelas</title>
+    <style>
+        body {            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            background-color: rgba(244, 137, 6, 0.668);
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .rs {
+            background-color: rgba(0, 76, 255, 0.676);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Desafio 13 tabelas</h1>
+    <table>
+
+        <tbody>
+            <tr>
+                <td class="rs" >1</td>
+                <td class="rs">2</td>
+                <td rowspan="2">3</td>
+                <td class="rs" >4</td>            
+            </tr>
+            <tr>
+                <td class="rs" >5</td>
+                <td class="rs" >6</td>
+                <td class="rs" >7</td>                
+            </tr>
+            <tr>
+                <td colspan="3">8</td>            
+                <td class="rs" >9</td>             
+            
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td class="rs" >12</td>
+                
+            </tr>
+            <tr>
+                <td class="rs" >13</td>
+                <td class="rs" >14</td>
+                <td class="rs" >15</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
